@@ -1,56 +1,5 @@
-NYC 311 Customer Service Request Analysis
-This project analyzes the New York City 311 Customer Service Request dataset using Python. The goal is to clean, prepare, and explore the data to uncover patterns in complaint types and response times. The project applies data wrangling, statistical analysis, and data visualization techniques to extract meaningful insights.
+**NYC 311 Customer Service Request Analysis** is a Python-based data analysis project focused on uncovering insights from the New York City 311 Customer Service Request dataset. The primary goal is to clean, process, and explore the data to identify patterns in complaint types and analyze how quickly issues are resolved. Through the use of data wrangling and visualization, the project reveals trends in customer service behavior across different boroughs and services.
 
-📌 Objectives
-Clean and prepare the dataset for analysis
+The project involves several key stages: understanding the dataset structure, preparing the data by converting date fields and calculating request closing times, and cleaning the data by removing irrelevant columns and handling missing values. Statistical analysis is performed to compute metrics like mean, standard deviation, skewness, and kurtosis, as well as to identify correlations between features. Visual exploration further helps in detecting the most frequent complaint types and how they vary across locations in terms of resolution time.
 
-Identify patterns in customer complaints
-
-Analyze response times and their relationship with complaint types and locations
-
-Perform statistical tests to validate hypotheses
-
-🧩 Project Breakdown
-🔍 Data Understanding
-Explore the dataset
-
-Describe its structure and key attributes
-
-🧹 Data Preparation
-Convert date columns (Created Date, Closed Date) to datetime format
-
-Calculate Request_Closing_Time
-
-Drop irrelevant columns
-
-Handle missing values
-
-📊 Data Analysis
-Generate summary statistics: mean, std, skewness, kurtosis
-
-Compute correlation matrix for numerical fields
-
-📈 Data Exploration
-Visualize trends and patterns in complaints
-
-Identify complaint types with the longest average closing time by location
-
-📐 Statistical Testing
-Test if average response time differs by complaint type
-
-Test if complaint types and locations are statistically related
-
-🛠 Tools & Libraries
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scipy
-
-Jupyter Notebook
+To validate the insights, the project includes statistical hypothesis testing to determine whether average response times differ significantly across complaint types and whether complaint types are associated with specific locations. Tools and libraries used in this analysis include Python, Pandas, NumPy, Matplotlib, Seaborn, Scipy, and Jupyter Notebook. The final deliverables include a cleaned dataset, Python scripts, a PDF technical report, and screenshots of the results for documentation.
